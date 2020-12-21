@@ -1,0 +1,97 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #f9f9f9;
+  font-family: 'Jura', 'Noto Sans JP', sans-serif;
+  height: 100vh;
+  background-image: url(../img/5F6A6FED-4C6D-465A-B052-629D6407B6A9.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#listarea_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#listarea_box h1 {
+  margin: 200px auto 50px;
+  font-size: 4rem;
+  background-color: rgba(255, 255, 255, 0.522);
+}
+
+#listarea_box #todolists {
+  margin: 10px;
+  font-size: 2rem;
+}
+
+#listarea_box #todolists .todoli_edit {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#listarea_box #todolists .clrbutton_edit {
+  margin: 5px 10px;
+  cursor: pointer;
+}
+
+#listarea_box #todolists .endbutton_edit {
+  margin: 5px 10px;
+  cursor: pointer;
+}
+
+#listarea_box .endbutton_line {
+  text-decoration: line-through;
+}
+
+#listarea_box .clrendbotton {
+  display: none;
+}
+
+#listarea_box #addlist {
+  margin: 10px;
+  padding: 5px;
+}
+
+#listarea_box #addbutton {
+  padding: 5px 20px;
+  -webkit-transform: translate(-2px, -2px);
+          transform: translate(-2px, -2px);
+  -webkit-box-shadow: 4px 4px 0px #333;
+          box-shadow: 4px 4px 0px #333;
+  cursor: pointer;
+}
+
+#listarea_box #addbutton:active {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+  -webkit-box-shadow: 0px 0px 0px #333;
+          box-shadow: 0px 0px 0px #333;
+}
+
+#listarea_box #error_message {
+  margin: 5px;
+  font-size: 1.3rem;
+  color: red;
+}
+
+#listarea_box input[type="text"]:focus {
+  outline: 0;
+}
+/*# sourceMappingURL=index.css.map */
